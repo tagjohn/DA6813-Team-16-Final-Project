@@ -19,7 +19,7 @@ Build a model to predict if certain groupings of factors indicate that people of
 ***********************
 ```{r}
 
-df <- read.csv("/Users/hannina/Documents/Summer 18/Project/Speed Dating Data.csv", head = TRUE, na.strings = c("NA", ""), stringsAsFactors = F)
+df <- read.csv("/Documents/Summer 18/Project/Speed Dating Data.csv", head = TRUE, na.strings = c("NA", ""), stringsAsFactors = F)
 #str(df)
 dim(df)
 
